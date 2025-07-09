@@ -1,0 +1,863 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.onaua{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+}
+.onauna{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+.bet-top{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    /* border:solid red 1px; */
+    background:#223;
+    /* justify-content: flex-start; */
+    padding-left:90px ;
+}
+.be1{
+    width: 60%;
+    height: 100%;
+    /* border:1px solid red; */
+    justify-content:flex-start;
+    align-items:center;
+    display: flex;
+    /* gap: 10px; */
+}
+.bet2{
+    display: flex;
+    color: red !important;
+    font-size: 40px !important;
+    font-weight: 900 !important;
+    justify-content: flex-start;
+    align-items:center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.bja{
+    display: flex;
+    font-size: 35px;
+    color: green;
+    font-weight: 900;
+}
+.be2{
+    width: calc(100% / 4);
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 600;
+}
+.bet-small{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.allver{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+     /* border: solid red 1px; */
+}
+.bet-panel{
+    width: 100%;
+    height: 11%;
+    /* border: #222 solid 1px; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color:#223;
+}
+.brannew{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    background-color:#223;
+}
+.betpanel{
+    width: 100%;
+    display: flex;
+    height: 100%;
+
+    /* border: 1px solid green; */
+}
+.follw{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.ones{
+    display: flex;
+    width: 10%;
+    height: 100%;
+    /* border: 1px solid; */
+    justify-content: center;
+    align-items: center;
+}
+.nij{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 50%;
+    background: yellow;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-weight: 600;
+    font-family:verdana;
+}
+.nij1{
+    display: flex;
+    color: green;
+    font-family:sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+.onase{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    /* border:solid 1px; */
+    /* margin-left:2px ; */
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+}
+.dem1{
+    width: 60px;
+    height: 40px;
+    display: flex;
+    /* border: 1px solid; */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #333;
+}
+.dem2{
+    width: 70px;
+    height: 40px;
+    display: flex;
+    /* border: 1px solid; */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #333;
+}
+.dem3{
+    width: 50px;
+    height: 40px;
+    display: flex;
+    /* border: 1px solid;. */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #333;
+}
+.dem4{
+    width: 50px;
+    height: 40px;
+    display: flex;
+    /* border: 1px solid; */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #333;
+}
+.dem5{
+    width: 50px;
+    height: 41px;
+    display: flex;
+    /* border: 1px solid; */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #333;
+}
+.sti{
+    width:15%;
+    height: 100%;
+    display: flex;
+    /* border: 1px solid; */
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+.time_me{
+    width: 150px;
+    height: 59%;
+    background: black;
+    border-radius: 40px;
+    font-family: monospace;
+    font-size: 35px;
+    font-weight: 900;
+    justify-content: center;
+    color: rgb(194, 117, 0);
+    align-items: center;
+    display: flex;
+}
+.sti :nth-child(1){
+    width: 150px;
+    height: 59%;
+    background: black;
+    border-radius: 40px;
+    font-family: monospace;
+    font-size: 35px;
+    font-weight: 900;
+    justify-content: center;
+    color: rgb(194, 117, 0);
+    align-items: center;
+    display: flex;
+}
+.bri{
+    width: 40%;
+    height: 100%;
+    /* border: groove; */
+    display: flex;
+    /* flex-direction: column; */
+}
+.inpi{
+    display: flex;
+    width: 220px;
+    border: 1px solid black;
+    height:32px ;
+    border-radius: 6px;
+    padding: 5px;
+    background-color: white;
+    margin-left: 2px;
+
+}
+.soa{
+    display: flex;
+    outline: none;
+    border: none;
+    background: none;
+    width: 100%;
+}
+.inp1i{
+    width:220px;
+    display: flex;
+    /* border: groove; */
+    height: 100%;
+}
+.infec{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.bus{
+    height: 32px;
+    width: 200px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: white;
+    margin-left: 2px;
+    /* padding: 5px; */
+    /* overflow: hidden; */
+
+
+}
+.unam{
+    outline: none;
+    background: none;
+    border: none;
+    display: flex;
+    width: 100%;
+    background: radial-gradient();
+}
+
+.bala{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-family: monospace;
+}
+.utibesgt{
+    display: flex;
+    width: 100%;
+    height: 64%;
+    /* border: groove; */
+}
+.amens1{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    /* border: groove; */
+}
+.amens2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    /* border: groove; */
+ 
+
+   
+}
+.kycy{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: wheat;
+    padding-left: 10px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-right:10px;
+    flex-wrap: wrap;
+}
+.amens3{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.amins1{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    /* border: 1px solid red; */
+    flex-direction: column;
+}
+.amin{
+    display: flex;
+    height:100%;
+    width: 80%;
+    /* border: groove; */
+    flex-direction: column;
+    background: rgb(223, 221, 221);
+}
+.amins{
+    display: flex;
+    width: 100%;
+    /* border: groove; */
+    flex-direction: column;
+    height: 80%;
+}
+.mens1{
+    display: flex;
+    height: calc(100% / 6);
+    width: 100%;
+    align-items: center;
+    /* border: solid green; */
+    justify-content: space-evenly;
+
+}
+.mens2{
+    display: flex;
+    height: calc(100% / 6);
+    width: 100%;
+    align-items: center;
+    /* border: solid green; */
+    justify-content: space-evenly;
+
+}
+.mens3{
+    display: flex;
+    height: calc(100% / 6);
+    width: 100%;
+    align-items: center;
+    /* border: solid green; */
+    justify-content: space-evenly;
+
+}
+.mens4{
+    display: flex;
+    height: calc(100% / 6);
+    width: 100%;
+    align-items: center;
+    /* border: solid green; */
+    justify-content: space-evenly;
+
+}
+.mens5{
+    display: flex;
+    height: calc(100% / 6);
+    width: 100%;
+    /* border: solid green; */
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.mens6{
+    display: flex;
+    height: calc(100% / 6);
+    width: 100%;
+    /* border: solid green; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ownas{
+    display:flex;
+    height:20%;
+    width: 100%;
+
+}
+.shou-red{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 220, 220);
+    border-radius: 50%;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: monospace;
+    border: solid red 2px;
+    cursor: pointer;
+}
+.shou-yellow{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 176);
+    border-radius: 50%;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: monospace;
+    border: solid yellow 2px;
+    cursor: pointer;
+}
+.shou-blue{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(180, 180, 254);
+    border-radius: 50%;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: monospace;
+    border: solid blue 2px;
+    cursor: pointer;
+}
+.shou-black{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(89, 89, 89);
+    border-radius: 50%;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: monospace;
+    border: solid black 2px;
+    cursor: pointer;
+}
+.cleard{
+    display: flex;
+    width:200px ;
+    margin-right:60px ;
+    height: 75%;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    outline: none;
+    /* border: none; */
+    font-size: 15px;
+    font-family: arial,sans-serif;
+    color: rgb(63, 185, 233);
+    border-radius: 8px;
+}
+.ownas{
+    display: flex;
+    flex-direction: column;
+    /* border: solid green; */
+    width: 100%;
+    height: 20%;
+}
+.nast{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* border: groove; */
+    align-items: center;
+    gap: 2px;
+
+}
+.same{
+    display: flex;
+    height: 40px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: arial;
+    background: rgb(131, 131, 131);
+}
+.rocking{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* border: solid red; */
+    flex-direction: column;
+    gap: 1px;
+
+}
+.ehea{
+    display: flex;
+    width: 100%;
+    height: calc(100% / 3);
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(168, 168, 168);
+    /* border: 1px solid; */
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: arial;
+}
+.papg{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    /* border: groove; */
+}
+.chop1{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    /* border: groove; */
+}
+.chop2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    /* border: groove; */
+    background: rgb(223, 221, 221);
+}
+.chop3{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    /* border: groove; */
+}
+.oacha{
+    display: flex;
+    height: 100%;
+    width: calc(100% / 2);
+    /* border: solid purple; */
+    flex-direction: column;
+}
+
+.keep{
+    width: 100%;
+    display: flex;
+    height: 30%;
+    /* border: groove; */
+    justify-content: space-around;
+}
+.ilou-red{
+    display: flex;
+    width: 55px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+}
+.ilou-yellow{
+    display: flex;
+    width: 55px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: rgb(213, 188, 26);
+    color:white;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+}
+.ilou-blue{
+    display: flex;
+    width: 55px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+}
+.ilou-draw{
+    display: flex;
+    width: 55px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+}
+.oacha1{
+    width:100%; 
+    display: flex;
+    height: 100%;
+    /* border: groove; */
+    justify-content: space-around;
+    flex-direction: column;
+    padding-top:5px ;
+}
+.pure{
+    display: flex;
+    height: 100%;
+    /* border:solid red 1px ; */
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ass0{
+    width:40px;
+    height: 40px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif ;
+    font-weight: 600;
+    color: white;
+    border-radius: 6px;
+}
+.ass2{
+    width:40px;
+    height: 40px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif ;
+    font-weight: 600;
+    color: white;
+    border-radius: 6px;
+}
+.ass3{
+    width:40px;
+    border-radius: 6px;
+    height: 40px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif ;
+    font-weight: 600;
+    color: white;
+}
+.ass4{
+    width:40px;
+    border-radius: 6px;
+    height: 40px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif ;
+    font-weight: 600;
+    color: white;
+}
+.ass5{
+    width:40px;
+    height: 40px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+    align-items: center;
+    font-family: sans-serif ;
+    font-weight: 600;
+    color: white;
+}
+.ass6{
+    width:40px;
+    height: 40px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif ;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+}
+.assho0{
+    width:40px;
+    height: 40px;
+    background: rgb(213, 188, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif ;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+}
+.assho2{
+    width:40px;
+    height: 40px;
+    background: rgb(213, 188, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif ;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+}
+.assho3{
+    width:40px;
+    height: 40px;
+    background: rgb(213, 188, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif ;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+}
+.assho4{
+    width:40px;
+    height: 40px;
+    background: rgb(213, 188, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif ;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+}
+.assho5{
+    width:40px;
+    height: 40px;
+    background: rgb(213, 188, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif ;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+}
+.assho6{
+    width:40px;
+    height: 40px;
+    background: rgb(213, 188, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif ;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+}
+.pres0{
+    width:40px;
+    height: 40px;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif ;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+}
+.pres2{
+    width:40px;
+    height: 40px;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif ;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+}
+.pres3{
+    width:40px;
+    height: 40px;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif ;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+}
+.pres4{
+    width:40px;
+    height: 40px;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif ;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+}
+.pres5{
+    width:40px;
+    height: 40px;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif ;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+}
+.pres6{
+    width:40px;
+    height: 40px;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif ;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+}
+
+@media screen {
+    
+}

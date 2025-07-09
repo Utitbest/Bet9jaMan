@@ -1,0 +1,1389 @@
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+@media only screen and (max-height:600px) {
+  .onaua{
+    height: 600px;
+  }     
+}
+@media only screen and (max-width:1000px){
+  .inpi{
+    display: none;
+    transition: 0.5s linear;
+  }
+}
+@media only screen and (max-width:950px) {
+  .sti :nth-child(1) {
+    width: 100px;
+    height: 59%;
+    background: black;
+    border-radius: 40px;
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: 900;
+    justify-content: center;
+    color: rgb(194, 117, 0);
+    align-items: center;
+    display: flex;
+    transition: 0.5s linear;
+  }
+  .sti :nth-child(2) {
+    width: 100%;
+    justify-content: center;
+    font-size: 10px;
+    align-items: center;
+    display: flex;
+    transition: 0.3s linear;
+  }
+  .chop3{
+    width: 20%;
+    transition: 0.3s linear;
+  }
+  .chop2{
+    width: 65%;
+    transition: 0.3s linear;
+  }
+}
+
+@media only screen and (max-width:850px){
+  .be1 {
+    width: 80%;
+    height: 100%;
+    transition: 0.3s linear;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex; 
+  }
+  .amens1{
+    display: none;
+    transition: 0.3s linear;
+  }
+  .chop1{
+    display: none;
+    transition: 0.3s linear;
+  }
+  .chop2 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    transition: 0.3s linear;
+    background: rgb(223, 221, 221);
+  }
+  .amens2{
+    width: 65%;
+  }
+}
+@media only screen and (max-width:750px){
+  .dem1 {
+    width: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #333;
+    font-size: 10px;
+    transition: 0.5s linear;
+  }
+  .dem2{
+    width: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #333;
+    font-size: 9px;
+    transition: 0.5s linear;
+  }
+  .dem3{
+    width: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #333;
+    font-size: 10px;
+    transition: 0.5s linear;
+  }
+  .dem4{
+    width: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #333;
+    font-size: 10px;
+    transition: 0.5s linear;
+  }
+  .dem5{
+    width: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #333;
+    font-size: 10px;
+    transition: 0.5s linear;
+  }
+  .sti :nth-child(1) {
+    width: 80px;
+    height: 59%;
+    background: black;
+    border-radius: 40px;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 900;
+    justify-content: center;
+    color: rgb(194, 117, 0);
+    align-items: center;
+    display: flex;
+    transition: 0.5s linear;
+  }
+  .sti :nth-child(2) {
+    width: 100%;
+    justify-content: center;
+    font-size: 7px;
+    align-items: center;
+    display: flex;
+    transition: 0.3s linear;
+  }
+  .nij {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    border-radius: 50%;
+    background: yellow;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-weight: 600;
+    font-family: verdana;
+    transition: 0.3s linear;
+  }
+  .nij1 {
+    display: flex;
+    color: green;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    transition: 0.3s linear;
+  }
+  .ones {
+    display: flex;
+    width: 8%;
+    height: 100%;
+    border: 1px solid;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s linear;
+  }
+  .bala {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    font-family: monospace;
+    transition: 0.3s linear;
+  }
+  .be1 {
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    transition: 0.3s linear;
+  }
+  .bet-top {
+   padding: 0;
+   transition: 0.3s linear;
+  }
+  .be2 {
+    width: calc(100% / 4);
+    display: flex;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    transition: 0.3s linear;
+  }
+  .be2 {
+    width: calc(100% / 4);
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    transition: 0.3s linear;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+  }
+  .bri {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s linear;
+  }
+  .infec {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    justify-content: center;
+    transition: 0.3s linear;
+  }
+  .bus {
+    height: 30px;
+    width: 140px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: white;
+    margin-left: 38px;
+    transition: 0.3s linear;
+  }
+  .cleard {
+    display: flex;
+    width: 100px;
+    margin-right: 60px;
+    height: 75%;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    outline: none;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    color: rgb(63, 185, 233);
+    border-radius: 8px;
+  }
+  .shou-red{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 220, 220);
+    border-radius: 50%;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: monospace;
+    border: solid red 2px;
+    transition: 0.3s linear;
+  }
+  
+.shou-yellow {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 255, 176);
+  border-radius: 50%;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: monospace;
+  border: solid yellow 2px;
+  transition: 0.3s linear;
+  }
+  .shou-blue {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(180, 180, 254);
+    border-radius: 50%;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: monospace;
+    border: solid blue 2px;
+    transition: 0.3s linear;
+  }
+  .shou-black {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(89, 89, 89);
+    border-radius: 50%;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: monospace;
+    border: solid black 2px;
+    transition: 0.3s linear;
+  }
+}
+@media only screen and  (max-width:700px){
+  .amens1{
+    display:none;
+    transition: 0.3s linear;
+  }
+  .chop1{
+    display:none;
+    transition: 0.3s linear;
+  }
+  .amens2 {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    transition: 0.3s linear;
+  }
+  .amens3{
+    width: 40%;
+    display: flex;
+    transition: 0.3s linear;
+  }
+ .chop3{
+  width: 15%;
+  background: rgb(197, 197, 197);
+  transition: 0.3s linear;
+ }
+ .chop2 {
+  height: 100%;
+  width: 85%;
+  display: flex;
+  background: rgb(223, 221, 221);
+  transition: 0.3s linear;
+  }
+  .ilou-red {
+    display: flex;
+    width: 45px;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+    transition: 0.3s linear;
+  }
+  .ilou-yellow {
+    display: flex;
+    width: 45px;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    background: rgb(213, 188, 26);
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+    transition: 0.3s linear;
+  }
+  .ilou-blue {
+    display: flex;
+    width: 45px;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    background:blue;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+    transition: 0.3s linear;
+  }
+  .ilou-draw {
+    display: flex;
+    width: 45px;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+    transition: 0.3s linear;
+  }
+  .keep {
+    width: 100%;
+    display: flex;
+    height: 30%;
+    /* border: groove; */
+    justify-content: space-around;
+    margin-top: 9px;
+    transition: 0.3s linear;
+  }
+  .ass0 {
+    width: 35px;
+    height: 35px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+    border-radius: 6px;
+    transition: 0.3s linear;
+    font-size: 14px;
+  }
+  .ass2 {
+    width: 35px;
+    height: 35px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+    border-radius: 6px;
+    transition: 0.3s linear;
+    font-size: 14px;
+  } 
+  .ass3 {
+    width: 35px;
+    height: 35px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+    border-radius: 6px;
+    transition: 0.3s linear;
+    font-size: 14px;
+  } 
+  .ass4 {
+    width: 35px;
+    height: 35px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+    border-radius: 6px;
+    transition: 0.3s linear;
+    font-size: 14px;
+  }  
+  .ass5 {
+    width: 35px;
+    height: 35px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+    border-radius: 6px;
+    transition: 0.3s linear;
+    font-size: 14px;
+  } 
+  .ass6{
+    width: 35px;
+    height: 35px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+    border-radius: 6px;
+    transition: 0.3s linear;
+    font-size: 14px;
+  }
+  .assho0 {
+    width: 35px;
+    height: 35px;
+    background: rgb(213, 188, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s linear;
+  }
+  .assho2 {
+    width: 35px;
+    height: 35px;
+    background: rgb(213, 188, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s linear;
+  }
+  .assho3 {
+    width: 35px;
+    height: 35px;
+    background: rgb(213, 188, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s linear;
+  }    
+  .assho4 {
+    width: 35px;
+    height: 35px;
+    background: rgb(213, 188, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s linear;
+  }
+  .assho5 {
+    width: 35px;
+    height: 35px;
+    background: rgb(213, 188, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s linear;
+  }  
+  .assho6 {
+    width: 35px;
+    height: 35px;
+    background: rgb(213, 188, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s linear;
+  }  
+  .pres0 {
+    width: 35px;
+    height: 35px;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s linear;
+  }
+  .pres2 {
+    width: 35px;
+    height: 35px;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s linear;
+  }  
+  .pres3 {
+    width: 35px;
+    height: 35px;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s linear;
+  }  
+  .pres4 {
+    width: 35px;
+    height: 35px;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s linear;
+  }  
+  .pres5 {
+    width: 35px;
+    height: 35px;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s linear;
+  }  
+  .pres6 {
+    width: 35px;
+    height: 35px;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s linear;
+  }   
+} 
+@media only screen and (max-width:600px){
+  .amens1{
+    display: none;
+    transition: 0.3s linear;
+  }
+  .chop1{
+    display: none;
+    transition: 0.3s linear;
+  }
+  .amens2 {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    /* border: groove; */
+    transition: 0.3s linear;
+  }
+  .amens3{
+   
+    height: 100%;
+    width: 40%;
+    display: flex;
+    /* border: groove; */
+    transition: 0.3s linear;
+  
+  }
+  .shou-red {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 220, 220);
+    border-radius: 50%;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: monospace;
+    border: solid red 2px;
+    transition: 0.3s linear;
+  }
+  .shou-yellow {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 176);
+    border-radius: 50%;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: monospace;
+    border: solid yellow 2px;
+    transition: 0.3s linear;
+  }
+  .shou-blue {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(180, 180, 254);
+    border-radius: 50%;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: monospace;
+    border: solid blue 2px;
+    transition: 0.3s linear;
+  }
+  .shou-black {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(89, 89, 89);
+    border-radius: 50%;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: monospace;
+    border: solid black 2px;
+    transition: 0.3s linear;
+  }
+  .cleard {
+    display: flex;
+    width: 100px;
+    /* margin-right: 20px; */
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    outline: none;
+    /* border: none; */
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    color: rgb(63, 185, 233);
+    border-radius: 8px;
+    transition: 0.3s linear;
+  }
+  .same {
+    display: flex;
+    height: 30px;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: arial;
+    background: rgb(131, 131, 131);
+    transition: 0.3s linear;
+  }
+}
+@media only screen and (max-width:675px){
+  .amens1{
+    display:none;
+    transition: 0.3s linear;
+  }
+  .chop1{
+    display:none;
+    transition: 0.3s linear;
+  }
+  .amens2 {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    transition: 0.3s linear;
+  }
+  .amens3{
+    width: 40%;
+    display: flex;
+    transition: 0.3s linear;
+  }
+ .chop3{
+  width: 15%;
+  background: rgb(197, 197, 197);
+  transition: 0.3s linear;
+ }
+ .chop2 {
+  height: 100%;
+  width: 85%;
+  display: flex;
+  /* border: groove; */
+  background: rgb(223, 221, 221);
+  transition: 0.3s linear;
+  }
+  .ilou-red {
+    display: flex;
+    width: 45px;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+    transition: 0.3s linear;
+  }
+  .ilou-yellow {
+    display: flex;
+    width: 45px;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    background: rgb(213, 188, 26);
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+    transition: 0.3s linear;
+  }
+  .ilou-blue {
+    display: flex;
+    width: 45px;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    background:blue;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+    transition: 0.3s linear;
+  }
+  .ilou-draw {
+    display: flex;
+    width: 45px;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+    transition: 0.3s linear;
+  }
+  .keep {
+    width: 100%;
+    display: flex;
+    height: 30%;
+    /* border: groove; */
+    justify-content: space-around;
+    margin-top: 9px;
+    transition: 0.3s linear;
+  }
+  .ass0 {
+    width: 35px;
+    height: 35px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+    border-radius: 6px;
+    transition: 0.3s linear;
+    font-size: 14px;
+  }
+  .ass2 {
+    width: 35px;
+    height: 35px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+    border-radius: 6px;
+    transition: 0.3s linear;
+    font-size: 14px;
+  } 
+  .ass3 {
+    width: 35px;
+    height: 35px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+    border-radius: 6px;
+    transition: 0.3s linear;
+    font-size: 14px;
+  } 
+  .ass4 {
+    width: 35px;
+    height: 35px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+    border-radius: 6px;
+    transition: 0.3s linear;
+    font-size: 14px;
+  }  
+  .ass5 {
+    width: 35px;
+    height: 35px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+    border-radius: 6px;
+    transition: 0.3s linear;
+    font-size: 14px;
+  } 
+  .ass6{
+    width: 35px;
+    height: 35px;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+    border-radius: 6px;
+    transition: 0.3s linear;
+    font-size: 14px;
+  }
+  .assho0 {
+    width: 35px;
+    height: 35px;
+    background: rgb(213, 188, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s linear;
+  }
+  .assho2 {
+    width: 35px;
+    height: 35px;
+    background: rgb(213, 188, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s linear;
+  }
+  .assho3 {
+    width: 35px;
+    height: 35px;
+    background: rgb(213, 188, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s linear;
+  }    
+  .assho4 {
+    width: 35px;
+    height: 35px;
+    background: rgb(213, 188, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s linear;
+  }
+  .assho5 {
+    width: 35px;
+    height: 35px;
+    background: rgb(213, 188, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s linear;
+  }  
+  .assho6 {
+    width: 35px;
+    height: 35px;
+    background: rgb(213, 188, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s linear;
+  }  
+  .pres0 {
+    width: 35px;
+    height: 35px;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s linear;
+  }
+  .pres2 {
+    width: 35px;
+    height: 35px;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s linear;
+  }  
+  .pres3 {
+    width: 35px;
+    height: 35px;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s linear;
+  }  
+  .pres4 {
+    width: 35px;
+    height: 35px;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s linear;
+  }  
+  .pres5 {
+    width: 35px;
+    height: 35px;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s linear;
+  }  
+  .pres6 {
+    width: 35px;
+    height: 35px;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    border-radius: 6px;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s linear;
+  }   
+} 
+@media only screen and (max-width:600px){
+  .amens1{
+    display: none;
+    transition: 0.3s linear;
+  }
+  .chop1{
+    display: none;
+    transition: 0.3s linear;
+  }
+  .amens2 {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    /* border: groove; */
+    transition: 0.3s linear;
+  }
+  .amens3{
+   
+    height: 100%;
+    width: 30%;
+    display: flex;
+    /* border: groove; */
+    transition: 0.3s linear;
+  
+  }
+  .shou-red {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    border-radius: 50%;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: monospace;
+    border: none;
+    outline: none;
+    transition: 0.3s linear;
+  }
+  .shou-yellow {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: yellow;
+    border-radius: 50%;
+    color: rgb(34, 26, 26);
+    border: none;
+    outline: none;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: monospace;
+    /* border: solid yellow 2px; */
+    transition: 0.3s linear;
+  }
+  .shou-blue {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:blue;
+    border-radius: 50%;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: monospace;
+    /* border: solid blue 2px; */
+    transition: 0.3s linear;
+    border: none;
+    outline: none;
+  }
+  .shou-black {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(27, 27, 27);
+    border-radius: 50%;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: monospace;
+    border: none;
+    outline: none;
+    /* border: solid black 2px; */
+    transition: 0.3s linear;
+  }
+  .cleard {
+    display: flex;
+    width: 100px;
+    margin-right: 20px;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    outline: none;
+    /* border: none; */
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    color: rgb(63, 185, 233);
+    border-radius: 8px;
+    transition: 0.3s linear;
+  }
+  .same {
+    display: flex;
+    height: 30px;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: arial;
+    background: rgb(131, 131, 131);
+    transition: 0.3s linear;
+  }
+ 
+}
+@media only screen and (max-width:500px) {
+  .onaua{
+    overflow:hidden;
+    overflow-y:auto;
+    overflow-x: auto;
+    height: 673px;
+    width: 500px;
+
+  }
+  .onauna{
+    overflow:hidden;
+    overflow-y:auto;
+    overflow-x: auto;
+    /* height: 100%; */
+    /* width: 100%; */
+
+  }
+  .bala {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 9px;
+    font-family: monospace;
+    transition: 0.3s linear;
+  }
+  .bus {
+    height: 30px;
+    width: 140px;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: white;
+    margin-left: 38px;
+    transition: 0.3s linear;
+}
+  .ilou-red {
+    display: flex;
+    width: 45px;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+    transition: 0.3s linear;
+  }
+  .ilou-yellow {
+    display: flex;
+    width: 45px;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    background: rgb(213, 188, 26);
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+    transition: 0.3s linear;
+    font-size: 12px;
+  }
+  .ilou-blue {
+    display: flex;
+    width: 45px;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+    transition: 0.3s linear;
+  }
+  .ilou-draw {
+    display: flex;
+    width: 45px;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    transition: 0.3s linear;
+  }
+  .chop3 {
+    width: 5%;
+    background: rgb(197, 197, 197);
+    transition: 0.3s linear;
+  }
+  .chop2 {
+    height: 100%;
+    width: 95%;
+    display: flex;
+    background: rgb(223, 221, 221);
+    transition: 0.3s linear;
+  }
+  .ones {
+    display: flex;
+    width: 13%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s linear;
+} 
+  .sti {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.3s linear;
+}
+  .bri{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    transition: 0.3s linear;
+  }
+}
