@@ -8,7 +8,6 @@
     height: 100vh;
     width: 100%;
     display: flex;
-    /* border: solid red 1px; */
     background: green;
 }
 .second_parent{
@@ -20,19 +19,16 @@
 .mothers1{
     height: 8%;
     width: 100%;
-    /* border: solid blue 1px; */
     background: linear-gradient(358deg, #ff1e1e, #040341, #1a9700);
 }
 .mothers2{
     height: 22%;
     width: 100%;
-    /* border: solid blue 1px; */
 }
 .mothers3{
     height: 70%;
     padding-top: 5px;
     width: 100%;
-    /* border: solid blue 1px; */
 }
 .head{
     height: 100%;
@@ -43,13 +39,11 @@
     height: 100%;
     width:30%;
     display: flex;
-    /* border: groove; */
 }
 .head_cnt2{
     height: 100%;
     width:40%;
     display: flex;
-    /* border: groove; */
 }
 .head_cnt3{
     height: 100%;
@@ -58,7 +52,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* border: groove; */
 }
 .site_ribbon{
     display: flex;
@@ -1062,7 +1055,4 @@
 }
 .water_bottle{
     display: flex !important;
-}
-.Hello{
-    
 }
