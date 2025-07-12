@@ -1384,3 +1384,7 @@
     transition: 0.3s linear;
   }
 }
+.hello{
+  width: 0;
+  
+}
